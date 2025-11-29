@@ -99,3 +99,16 @@ print(Dict)
 dct.clear()
 print("Dictionary is cleared ")
 
+#Checking if a key is present in the Dictionary
+dct = {1 : "Ashish ",2:"Avneet",3:"David",4:"Ankur",5:"Sakshi"}
+print(dct)
+print(1 in dct)
+print('1' in dct)
+
+
+#Use of update in the dictionary
+dct_1 = {1:'A' , 2: 'B' , 3: 'C'}
+dct_2 = {1:'a', 2: 'b', 3: 'c'}
+dct_1.update(dct_2)
+print(dct_1)
+
