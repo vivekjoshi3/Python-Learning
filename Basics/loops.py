@@ -18,7 +18,7 @@ for var in iterable:
     pass
     
 """
-s =["Geeks ","COde academy ","Vivekanand Joshi"]
+s =["Geeks ","Code academy ","Vivekanand Joshi"]
 for i in s:
     print(i)
 
@@ -37,7 +37,8 @@ WITH THE HELP OF RANGE YOU CAN TRAVERSE THROUGH THE DATA PROPERLY
 
 range(stop) - Generates number from 0 to stop-1
 range(start, stop) - Generates number from start to stop-1
-range (start , stop , step) - Generates the number from start to stop-1, incrementing by the step
+range (start , stop , step) - Generates the number from start to stop-1, 
+incrementing by the step
 
 """
 
@@ -51,7 +52,11 @@ for j in range(0, 10,20):
 
     """
     CONTINUE STATEMENT 
-    WHEN EXECUTION LEAVES THE SCOPE ALL AUTOMATIC OBJECTS WHICH ARE DEFINED OR CREATED IN THE SCOPE ARE DESTROYED AGAIN AND THE CONTROL GOES BACK TO LOOP AGAIN
+    WHEN EXECUTION LEAVES THE SCOPE ALL 
+    AUTOMATIC OBJECTS WHICH ARE DEFINED 
+    OR CREATED IN THE SCOPE ARE DESTROYED 
+    AGAIN AND THE CONTROL GOES BACK TO LOOP 
+    AGAIN
     
     """
 
@@ -87,7 +92,8 @@ else:
 print("---------------------------------------------------------------------")
 #use of enumerate with the help of for loop
 """
-This will traverse through each and every transaction properly and will also 
+This will traverse through each and 
+every transaction properly and will also 
 give the number which are present at the start
 
 0. Data

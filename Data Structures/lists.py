@@ -8,6 +8,7 @@ print("Student Name : ",student_info[1],end='')
 print("Student Subject: ",student_info[2],end='')
 print("Student Marks : ",student_info[-1])
 
+
 """ SLICING OF THE LISTS"""
 student_info = [21, "Rose","CSE",20,30,40,50,120]
 print(student_info[1:3])
@@ -47,3 +48,21 @@ print(student_info+student_info_1)
 #LIsts can be repeated using the * operator
 student_info= [21, "Rose","CSE",20,30,40,50,120]
 print(student_info*2)
+
+#Iterating the data through the list
+lst = [3,5,6,7,8,9,10]
+for item in lst:
+    print(item)
+
+print("----------------------------------------------")
+
+#Iterating with Index
+for i in range(len(lst)):
+    print(i)
+
+print("-----------------------------------------------")
+
+#Reverse iteration:
+for i in range(len(lst)-1,-1,-1):
+    print(i)
+
