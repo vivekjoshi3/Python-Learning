@@ -112,3 +112,5 @@ dct_2 = {1:'a', 2: 'b', 3: 'c'}
 dct_1.update(dct_2)
 print(dct_1)
 
+
+
