@@ -51,3 +51,9 @@ print(lst)
 #this will be used for the lists which are present
 lst = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print([num for row in lst for num in row])
+
+
+#check whether the no is even or not
+j= [x for x in range(10) if x%2 == 0]
+print(j)
+

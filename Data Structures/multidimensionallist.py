@@ -67,3 +67,59 @@ print("Length of the list : ",len(lst))
 
 #Reverse the list
 lst = [[1,2,3],[4,5,6],[7,8,9]]
+
+
+m = [[2,4,6,8,10],
+     [3,6,9,12,15],
+     [4,8,12,16,20]]
+
+#this will print the value 
+print(m)
+
+
+#This will have the data which we need ot print
+m , n = 5,6
+
+mat =[]
+
+for i in range(m):
+    row = []
+    for j in range(n):
+        row.append(0)
+    mat.append(row)
+
+print(mat)
+
+
+#accessing the data for multidimensional list
+a = [[2,4,6,8] , [3,6,9,10], [4,8,16,20]]
+for row in a:
+    print(row)
+
+#print the data for the nested loops
+for i in range(len(a)):
+    for j in range(len(a[i])):
+        print(a[i][j] , end = " ")
+    print()
+
+#Methods on Multidimensional lists
+
+#Using the append() function
+a= [[2,4,6],[3,6,98,100]]
+a.append([5,10,15])
+print(a)
+
+#using the extend function
+a[0].extend([8,10])
+print(a)
+
+#using the reverse function
+a[1].reverse()
+print(a)
+
+#using the indexing to write the data
+print(a[0][1])
+
+#using the list comprehension to write the data
+b = [[x*2 for x in row] for row in a]
+print(b)
